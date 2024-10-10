@@ -6,10 +6,11 @@
     <title>Welcome to my first Assignment</title>
     <link rel="stylesheet" href="Styles/style.css">
     <style>
+        
         .header-style {
             text-align: center;
             margin-top: 20px;
-            background-color: antiquewhite;
+            background-color: rgb(240, 239, 238);
             background-image: url('Hero-bg.png');
             border: 3px solid rgb(237, 232, 232);
             padding: 10px;
@@ -24,7 +25,7 @@
 
         .main-section{
             margin: 21px 221px 45px 221px;
-            background-color: #ADC8F7;
+            background-color: #f0f0f2;
             
         }
 
@@ -55,7 +56,7 @@
             margin-left: 100px;
         }
 
-        .main-btn {
+        .primary-btn {
             background-color: azure;
             text-align: center;
             color: black;
@@ -67,6 +68,35 @@
             padding: 10px;
             margin-top: 20px;
             border-radius: 10px;
+        }
+
+        /* Main section part -2 start */
+
+        .main-sec-part2{
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+
+        .main-sec-part2-img{
+            margin-left: 40px;
+        }
+
+        .main-sec-part2-content{
+            margin: 20px 50px 20px 50px;
+        }
+
+        /* Inspiration Section */
+
+        .inspiration-sec{
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 40px;
+            background-color: white;
+        }
+
+        .inspiration-sec-content{
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -85,8 +115,8 @@
 
         </div>
     </header>
-    <main>
-        <div class="main-section">
+    <main class="main-section">
+        <div>
             <div class="main-sec-top">
                 <h3 style="text-align: center; font-size: 32px; font-weight: 700px; margin: 10px; padding-top: 15px;">Why Web Development??</h3>
                 <p style="padding: 10px; font-size: 18px; font-weight: 400; text-align: center; margin: 10px 30px 10px 30px;">
@@ -117,6 +147,58 @@
 
             </div>
         </div>
+
+        <div class="main-sec-part2">
+            <div class="main-sec-part2-img">
+                <img src="assets/Group 4.png" alt="Second Image">
+            </div>
+            <div class="main-sec-part2-content">
+                <h3>I will help People by creating Modern Web System</h3>
+                <p>I strongly believe that I am one of these prized individuals, and with my skills and abilities, I believe that I am more than fit to turn my dream career into reality. To begin with, software developers are the creative forces behind the technologies we often take for granted in our day-to-day basis.</p>
+                <form action="">
+                    <input type="button" value="Learn More">
+                 </form>
+            </div>
+        </div>
+
+        <div>
+            <div class="main-sec-top">
+                 <div class="main-row1">
+                    <div class="main-row1-col1">
+                        <h3>
+                            I will Do Coding and Change The World
+                        </h3>
+                        <p style="font-size: 14px;">
+                        High-Quality Websites That Engage Your Audience And Drive Conversions. Maximize your online potential with a stunning website that drives growth.
+                        </p>
+                        <!-- <button class="main-btn">Learn More</button> -->
+                         <br>
+                         <form action="">
+                            <input type="button" value="Learn More">
+                         </form>
+                        
+                    </div>
+                    <div>
+                        <img class="main-sec-img" src="assets/Group 3.png" alt="Group-3-Pic">
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div class="inspiration-sec">
+            <div class="inspiration-sec-content">
+                <h3 style="font-size: 32px; font-weight: 500px; padding-top: 30px;">My Inspiration</h3>
+                <p style="font-size: 16px; font-weight: 400px; margin-bottom: 20px;">My dream job is to become a successful software engineer because I have always been into computers systems but can I fit this job?</p>
+            </div>
+
+            <div class="inspiration-sec-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dAI21EfRv6Y?si=0eSZMdRjM_HJsksg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
     </main>
     <footer>
 
