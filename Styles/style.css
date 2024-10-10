@@ -1,0 +1,11 @@
+
+
+.header-style {
+    align-items: center;
+    border: 2px solid wheat;
+    background-image: url('../assets/Hero-bg.png');
+}
+
+.header-section {
+    text-align: center;
+}
