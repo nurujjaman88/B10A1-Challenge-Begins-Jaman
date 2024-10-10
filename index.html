@@ -15,28 +15,108 @@
             padding: 10px;
             
         }
+
+        .header-contents {
+            margin: 21px 221px 45px 221px;
+        }
+
+        /* Main Section Style*/
+
+        .main-section{
+            margin: 21px 221px 45px 221px;
+            background-color: #ADC8F7;
+            
+        }
+
+        .main-row1{
+            display: flex;
+            gap:space-between;
+            background-color: whitesmoke;
+            text-align: left;
+            /* height: 300px;
+            width: 400px; */
+        }
+
+        .main-row1-col1{
+            text-align: left;
+            padding: 10px;
+            height: 300px;
+            width: 500px;
+            margin-left: 40px;
+            margin-right: 50px;
+            
+        }
+
+        .main-sec-img {
+            text-align: right;
+            /* padding-right: 100px; */
+            /* height: 200px;
+            width: 200px; */
+            margin-left: 100px;
+        }
+
+        .main-btn {
+            background-color: azure;
+            text-align: center;
+            color: black;
+            border: 3px solid blanchedalmond;
+            font-size: 22px;
+            font-weight: 500px;
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <header class="header-style">
-        <div> 
+        <div class="header-contents"> 
             <div>
                 <img src="assets/Group.png" alt="header-Picture">
             </div> 
-                <h2>
-                    "In the near future, I hope to become a Developer."
+                <h2 style="font-size: 56px; font-weight: 800; padding: 20px; margin: 20px;">
+                    "In the near future, I hope to <br>become a Developer."
                 </h2>
-                <p>
+                <p style="padding: 10px; font-size: 24px; font-weight: 400;">
                     High-Quality Websites That Engage Your Audience And Drive Conversions. Maximize your online potential with a stunning website that drives growth.
                 </p>
 
         </div>
     </header>
     <main>
-        <p style="color: red; border: 1px solid yellowgreen; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore necessitatibus minima illo aliquam voluptatem delectus unde doloribus animi. Animi.</p>
+        <div class="main-section">
+            <div class="main-sec-top">
+                <h3 style="text-align: center; font-size: 32px; font-weight: 700px; margin: 10px; padding-top: 15px;">Why Web Development??</h3>
+                <p style="padding: 10px; font-size: 18px; font-weight: 400; text-align: center; margin: 10px 30px 10px 30px;">
+                High-Quality Websites That Engage Your Audience And Drive Conversions. Maximize your online potential with a stunning website that drives growth.
+                </p>
 
+                <div class="main-row1">
+                    <div class="main-row1-col1">
+                        <h3>
+                            I will Do Coding and Change The World
+                        </h3>
+                        <p style="font-size: 14px;">
+                        High-Quality Websites That Engage Your Audience And Drive Conversions. Maximize your online potential with a stunning website that drives growth.
+                        </p>
+                        <!-- <button class="main-btn">Learn More</button> -->
+                         <br>
+                         <form action="">
+                            <input type="button" value="Learn More">
+                         </form>
+                        
+                    </div>
+                    <div>
+                        <img class="main-sec-img" src="assets/Group 3.png" alt="Group-3-Pic">
+                    </div>
+                    
+                </div>
+                
 
-        <img src="" alt="">
+            </div>
+        </div>
     </main>
     <footer>
 
